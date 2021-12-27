@@ -114,8 +114,9 @@ hr {
 }
 
 .hero-img {
-    max-width: 400px;
+    max-width: 620px;
     margin: auto;
+    margin-top: 1rem;
     display: block;
 }
 
