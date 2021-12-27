@@ -40,19 +40,19 @@
 
     <h2>@lists</h2>
     <h3>unordered list</h3>
-    <ul>
+    <ul class="list-non-bullet">
         <li>item 1</li>
         <li>item 2</li>
         <li>item 3</li>
     </ul>
     <h3>ordered list</h3>
     <ol>
-        <li>item 1</li>
-        <li>item 2</li>
-        <li>item 3</li>
+        <li class="list-item-inline">item 1</li>
+        <li class="list-item-inline">item 2</li>
+        <li class="list-item-inline">item 3</li>
     </ol>
     <h3>reverse ordered list</h3>
-    <ol>
+    <ol reversed>
         <li>item 1</li>
         <li>item 2</li>
         <li>item 3</li>
@@ -62,12 +62,12 @@
 
     <h2>@navbar</h2>
 
-    <nav>
-        <div>iAmBrand</div>
-        <ul>
-            <li><a href="/">home</a></li>
-            <li><a href="/">products</a></li>
-            <li><a href="/">blogs</a></li>
+    <nav class="navigation container">
+        <div class="nav-brand">iAmBrand</div>
+        <ul class="list-non-bullet">
+            <li class="list-item-inline"><a href="/" class="nav-links link-active">home</a></li>
+            <li class="list-item-inline"><a href="/" class="nav-links">products</a></li>
+            <li class="list-item-inline"><a href="/" class="nav-links">blogs</a></li>
         </ul>
     </nav>
 
@@ -75,12 +75,40 @@
 
     <h2>@header</h2>
 
-    <header>
-        <img src="/images/3.svg" alt="devimage">
-        <h1>heading inside hero</h1>
+    <header class="hero">
+        <img src="/images/3.svg" alt="devimage" class="hero-img">
+        <h1 class="hero-heading">Varun the <span style="color: var(--primary-color);">/Web_Developer</Web_Developer></span></h1>
     </header>
     <hr>
-    <footer style="height: 10vh; color: black;"></footer>
+    <h2>@section</h2>
+    <section class="section">
+        <div class="container container-center">
+            <h1>projects</h1>
+            <p>I like to showcase my work and thus, you can see my projects hosted online</p>
+            <a class="link link-primary" href="/projects.html">See Projects</a>
+        </div>
+    </section>
+
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>blogs</h1>
+            <p>I am also working on some technical and non techincal blogs. I like to document my journey of learning.</p>
+            <a class="link link-secondary" href="/blogs.html">Read Blogs</a>
+        </div>
+    </section>
+
+    <hr>
+
+    <footer class="footer">
+        <div class="footer-heading">
+            some small heading for footer
+        </div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"><a class="nodeco" href="/">social one</a></li>
+            <li class="list-item-inline"><a class="nodeco" href="/">social two</a></li>
+            <li class="list-item-inline"><a class="nodeco" href="/">social three</a></li>
+        </ul>
+    </footer>
 </body>
 
 </html>
