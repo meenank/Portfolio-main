@@ -91,9 +91,14 @@ hr {
     margin-left: 1rem;
     letter-spacing: 1px;
     word-spacing: 0.6rem;
-    color: #e2e0ff;
+    color: white;
     /* border: 1px solid yellow; */
 }
+
+
+/* .nav-brand :hover {
+    color: #ffbd00;
+} */
 
 .link-active {
     font-weight: bold;
@@ -102,6 +107,10 @@ hr {
 
 
 /* header */
+
+.hero {
+    padding-top: 3rem;
+}
 
 .hero-heading {
     color: var(--second-color);
