@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Outfit:wght@300&display=swap');
 :root {
     --primary-color: #6C63FF;
     --second-color: #64748b;
     --off-white: #99f6e4;
+    --golden-yellow: #ffbd00;
 }
 
 body {
@@ -81,12 +83,21 @@ hr {
 }
 
 .nav-brand {
-    font-weight: bold;
-    font-size: 1.1rem;
+    float: left;
+    font-family: pushster;
+    font-size: 1.5rem;
+    max-width: 13rem;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    letter-spacing: 1px;
+    word-spacing: 0.6rem;
+    color: #e2e0ff;
+    /* border: 1px solid yellow; */
 }
 
 .link-active {
     font-weight: bold;
+    text-decoration: underline;
 }
 
 
@@ -140,4 +151,8 @@ hr {
 
 .footer ul {
     padding-inline-start: 0px;
+}
+
+.footer-heading {
+    font-weight: bold;
 }
