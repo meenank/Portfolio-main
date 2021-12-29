@@ -110,7 +110,8 @@ hr {
 .hero-heading {
     color: var(--second-color);
     text-align: center;
-    padding-top: 1rem;
+    /* padding-bottom: 1rem; */
+    /* border: 1px solid yellow; */
 }
 
 .hero-img {
@@ -160,4 +161,38 @@ hr {
 
 .footer-heading {
     font-weight: bold;
+}
+
+
+/*  processing gif*/
+
+.processing {
+    width: 4rem;
+    height: 4rem;
+    padding-top: 1rem;
+    /* border: 1px solid yellow; */
+}
+
+.adjust {
+    max-width: 300px;
+    height: auto;
+    /* float: left; */
+}
+
+.section .blog-link {
+    float: right;
+    text-align: justify;
+}
+
+.section a {
+    margin: 3rem 2rem;
+}
+
+.blogtwo {
+    margin-top: 0rem;
+    padding-bottom: 7rem;
+}
+
+.blogone {
+    margin-bottom: 5rem;
 }
