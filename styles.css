@@ -16,6 +16,10 @@ hr {
     margin: 2rem 0rem;
 }
 
+header {
+    height: 100vh;
+}
+
 
 /* containers */
 
@@ -117,7 +121,7 @@ hr {
 
 .hero-img {
     max-width: 620px;
-    margin: auto;
+    margin: 0 auto;
     margin-top: 1rem;
     display: block;
 }
